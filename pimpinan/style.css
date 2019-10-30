@@ -1,0 +1,197 @@
+/* CSS Document */
+
+body{
+	font-family:"Arial";
+	font-size:14px;
+	padding-left:0px;
+	padding-right:0px;
+	width:100%;
+	padding-top:0px;
+	margin:0px;
+	background: #E5E6DD;
+}
+
+.container{
+	background-color:#3A3A3A;
+}
+
+.container1{
+	background-color:#F7F7F7;
+}
+
+.grid{
+	width:100%;
+	padding-top:20px;
+	padding-bottom:20px;
+	overflow:hidden;
+}
+
+.dh1 { width:6.25%; }
+.dh2 { width:14.58%; }
+.dh3 { width:22.91%; }
+.dh4 { width:31.25%; }
+.dh5 { width:39.58%; }
+.dh6 { width:47.91%; }
+.dh7 { width:56.25%; }
+.dh8 { width:64.58%; }
+.dh9 { width:72.91%; }
+.dh10{ width:81.25%; }
+.dh11{ width:89.58%; }
+.dh12{ width:97.91%; }
+
+.dh1, .dh2, .dh3, .dh4, .dh5, .dh6, .dh7, .dh8, .dh9, .dh10, .dh11, .dh12{
+	float:left;
+	display:inline;
+	margin:0 1.04%;
+}
+
+@media screen and (max-width:720px){
+	.dh1, .dh2, .dh3, .dh4, .dh5, .dh6, .dh7, .dh8, .dh9, .dh10, .dh11, .dh12{
+		width:97.91%;
+		margin-bottom:1em;
+	}
+}
+
+#login{
+	max-width:350px;
+	margin:60px auto;
+	position:relative;
+	display:block;
+	background-color:#FFFFFF;
+	box-shadow:0 0 5px #aaa;
+}
+
+#isiadmin{
+	max-width:100%;
+	margin:10px auto;
+	position:relative;
+	display:block;
+	padding:20px;
+	background-color:#FFFFFF;
+	box-shadow:0 0 5px #aaa;
+}
+
+#view{
+	max-width:100%;
+	margin:10px auto;
+	position:relative;
+	display:block;
+	padding:10px;
+	background-color:#E4E4E4;
+	box-shadow:0 0 5px #aaa;
+}
+
+#login h3{
+	text-align:center;
+	color:#3A3A3A;
+	font-size:24px;
+	padding:15px 5px;
+}
+
+fieldset{
+	margin:10px;
+	border:none;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="file"],
+select, textarea {
+	width:100%;
+	padding:0.8em;
+	margin-top:1em;
+	border:1px solid #999999;
+	background-color:#E9E9E9;
+	font-family:"Arial";
+	color:#3A3A3A;
+}
+option{
+	padding:10px;
+}
+
+input[type="submit"]{
+	width:100%;
+	margin-top:0.9em;
+	color:#FFFFFF;
+	background-color:#3A3A3A;
+	padding:0.8em;
+	text-align:center;
+	cursor:pointer;
+	border:1px solid #999999;
+	font-family:"Arial";
+}
+
+/* BAGIAN MENU */
+ul#menu{
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+	width:100%;
+	height:auto;
+	font-size:14px;
+	background-color:#333333;
+}
+
+ul#menu li{
+	margin:0px;
+	padding:0px;
+	width:100%;
+}
+
+ul#menu li a{
+	float:left;
+	color:#FFFFFF;
+	text-decoration:none;
+	padding:12px 0px 0px 20px;
+	height:30px;
+	background-color:#3A3A3A;
+	width:90%;
+}
+
+ul#menu li a:hover{
+	color:#FFFFFF;
+	background-color:#333333;
+}
+
+table{
+	width:100%;
+}
+th{
+	text-align:center;
+	padding:10px;
+	background-color:#3A3A3A;
+	color:#FFFFFF;
+	font-family:Arial;
+	font-size:14px;
+}
+td{
+	padding:10px;
+	background-color:#F2F2F2;
+	font-size:14px;		
+}
+
+a{ color:#3A3A3A; text-decoration:none;}
+a:hover{ color:#333333;}
+
+.btn{
+	font-family:Arial;
+	font-size:14px;
+	padding:9px 9px;
+	text-align:center;
+	cursor:pointer;
+	border:1px solid transparent;
+	border-radius:4px;
+	width:150px;
+}
+
+.btn-more{ 
+	color:#FFFFFF; 
+	background-color:#3A3A3A;
+	border-color:#9D0000;
+}
+
+.btn-more:hover{ 
+	color:#FFFFFF; 
+	background-color:#3A3A3A;
+	border-color:#9D0000;
+}
